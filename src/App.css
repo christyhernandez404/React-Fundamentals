@@ -1,0 +1,47 @@
+.container {
+  width: 80%;
+  margin:0 auto;  
+  padding:20px;  
+  text-align: center;
+}
+
+.contact-container {
+  width: 80%;
+  margin:0 auto;  
+  padding:20px;  
+  text-align: center;
+}
+
+.header-container {
+  background-image: url(me.png);
+  height:600px;
+  width: 600px;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top:480px;
+}
+
+.name {
+  color:white;
+  font-size:25px;
+  text-align:center;
+}
+
+.App {
+  padding:20px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100%;
+
+}
